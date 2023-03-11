@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/gray01">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="400dp">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/upload_pdf"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pdf_title_inputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/pdf_title_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_shape"
+                android:drawableStart="@drawable/ic_course_gray_icon"
+                android:drawablePadding="10dp"
+                android:hint="Enter PDF Title"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray01"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/select_pdf_btn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Attach"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttons"
+                android:textColor="@color/gray01"
+                android:drawableLeft="@drawable/ic_pdf_select_white_icon"/>
+
+            <Button
+                android:id="@+id/upload_pdf_btn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Upload"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/buttons"
+                android:textColor="@color/gray01"
+                android:drawableLeft="@drawable/ic_upload_pdf_white_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

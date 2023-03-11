@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AdminDashboardActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/user_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/dashboard_toolbar">
+        <TextView
+            android:id="@+id/user_student_id_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Admin Dashboard"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/user_email_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/user_student_id_textView"
+            android:text="anikk210@gmail.com"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/user_logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_logout_black_icon"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="15dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/selection_dropdown_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/user_toolbar"
+        android:background="#E1E1F6"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/dept_selection_dropdown_menu"
+            android:layout_width="180dp"
+            android:layout_height="50dp"/>
+
+        <Spinner
+            android:id="@+id/semester_selection_dropdown_menu"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/course_name_containing_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/selection_dropdown_menu"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/empty_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_drafts_gray_icon"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/selection_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_imageView"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Will be released on next update\nUntil then, be patient"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

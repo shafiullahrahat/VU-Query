@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407266617830",
+    "project_id": "vuquery",
+    "storage_bucket": "vuquery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407266617830:android:30943760650ffd53648e27",
+        "android_client_info": {
+          "package_name": "com.example.vuquery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407266617830-c8e7o3lq2vnk4ms26cfls206ppdri7u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl31CXp6gv_05odohC-DEpZkvMok7EWpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407266617830-c8e7o3lq2vnk4ms26cfls206ppdri7u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

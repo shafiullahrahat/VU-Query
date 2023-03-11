@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">VuQuery</string>
+    <string name="app_slogan">A Trusted Place \n\t\t\t\t\t\t\tFor Your Search</string>
+    <string name="app_credit">©SR Production</string>
+    <string name="login_Welcome">Welcome to VuQuery</string>
+    <string name="signUp">New user? <b>SignUp</b></string>
+    <string name="signin">Already have an account? <b>Sign In</b></string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="Course_name_1st_semester">
+        <item>English Fundamentals</item>
+        <item>Basic Physics</item>
+        <item>Differential and Integral Calculus</item>
+        <item>Basic Physics Lab</item>
+        <item>Computer Fundamentals</item>
+        <item>Computer Application Lab</item>
+    </string-array>
+
+    <string-array name="DifferentialandIntegralCalculus">
+        <item>MAT 111 Book</item>
+    </string-array>
+
+    <string-array name="Basic_physics">
+        <item>Elements of Electromagnetics</item>
+    </string-array>
+
+    <string-array name="Basic_physics_lab">
+        <item>Lab Manual</item>
+    </string-array>
+
+    <string-array name="EnglishFundamentals">
+        <item>High school English Grammar and Composition</item>
+        <item>Solved Exercise_R2</item>
+        <item>Exercise In Reading Comprehension</item>
+        <item>Essential Grammar</item>
+    </string-array>
+
+    <string-array name="ComputerFundamentals">
+        <item>Introduction To Computers</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home_icon"
+        android:id="@+id/home_menu"
+        android:iconTint="@color/gray01"/>
+    <item
+        android:title="Teacher's Details"
+        android:icon="@drawable/ic_teachers_white_icon"
+        android:id="@+id/teacher_details"
+        android:iconTint="@color/gray01"/>
+    <item
+        android:title="University Detailes"
+        android:icon="@drawable/ic_varsity_details_icon"
+        android:id="@+id/varsity_website"
+        android:iconTint="@color/gray01"/>
+    <item
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_privacy_policy_icon"
+        android:id="@+id/privacyPolicyMenu"
+        android:iconTint="@color/gray01"/>
+    <item
+        android:title="Share App"
+        android:icon="@drawable/ic_share_app_icon"
+        android:id="@+id/shareMenu"
+        android:iconTint="@color/gray01"/>
+
+</menu>
